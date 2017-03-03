@@ -1,0 +1,52 @@
+.titu{
+    padding-top: 5px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../img/fondogatos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.vacio{
+    width: 100%;
+    height: 400px;
+}
+
+.datosTablas {
+    padding: 10px;
+    border:4px solid #7e7e7e;
+    text-align: center;
+}
+
+
+footer {
+    height: 100px;
+    background: gray;
+}
+a{
+  color: white;
+  
+}
+a:active{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration:none;
+}
+.likes:hover,
+.dislikes:hover {
+ color: #F65A5B ;
+   background: rgba(246, 90, 91, 0.25);
+}
+.likes,
+.dislikes {
+   background: #F65A5B ;
+ color: #fff;
+ cursor: pointer;
+ display: inline-block;
+
+}

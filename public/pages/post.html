@@ -1,0 +1,20 @@
+<ul ng-controller="PostController">
+  <li ng-repeat="L in datosLista" style="margin-top:50px;">
+
+
+
+
+    <div class="card card-inverse text-center" style="background-color: #333; border-color: #333;">
+  <div class="card-block">
+    <a  href="#!/post/{{L.$id}}"style=" font-size:30px" class="card-title">{{L.titulo}}</a>
+
+    <!--<h4 class="card-title">Special title treatment</h4>-->
+    <p class="card-text">{{L.valores}}</p>
+    <a href="#!/post/{{L.$id}}" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+  </li>
+
+
+</ul>
